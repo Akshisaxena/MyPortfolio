@@ -9,9 +9,9 @@ body
     justify-content: center;
     max-width: 100%;
     height: 100vh;
-    animation-duration: 2s;
+    /* animation-duration: 2s;
     animation-direction: reverse;
-    animation-name: hi;
+    animation-name: hi; */
     
     
 }
@@ -93,7 +93,7 @@ body
     
 }
 
-@keyframes hi {
+/* @keyframes hi {
     
     from {
         margin-top: 0%;
@@ -106,7 +106,7 @@ body
         width:100%
         
       }
-    }
+    } */
 
     .about{
         display:flex;
