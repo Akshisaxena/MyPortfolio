@@ -1,0 +1,163 @@
+body
+{
+    
+    /* background-color: blanchedalmond ;  */
+    background-image: url("/Users/akshisaxena/Downloads/background.webp");
+    display: flex;
+    /* flex-direction: column; */
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 100%;
+    height: 100vh;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-name: hi;
+    
+    
+}
+
+.navbar{
+    /*list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;*/
+
+    display: flex;
+    /* flex-direction: row; */
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.navbar-item {
+    /* float: center; */
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.navbar-block {
+    display: flex;
+    /* flex-direction: row; */
+    flex-flow: row wrap;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+    padding-bottom: 50px
+}
+
+.navbar-block:after {
+    content: '';
+    display: block;
+    margin: auto;
+    margin-top: 2px;
+    height: 3px;
+    width: 0px;
+    background: rgb(172, 140, 140);
+    transition: width .2s linear;
+}
+
+.navbar-block:hover:after {
+    width: 96%;
+    background: black;
+}
+
+
+.intro
+{
+    display: flex;
+    /* flex-direction: row; */
+    flex-flow: row wrap;
+    
+} 
+
+
+.one{
+   
+    font-size: 120px;
+    font-family: 'Alfa Slab One';
+    font-weight: 900;
+    text-align: center;
+    color: rgb(114, 66, 66) ;
+    text-shadow:  20px black;
+    padding-bottom: 30px;
+    text-decoration-line: overline underline;
+    text-decoration-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    
+    
+}
+
+@keyframes hi {
+    
+    from {
+        margin-top: 0%;
+        width:100%
+        
+      }
+    
+      to {
+        margin-top: 100%;
+        width:100%
+        
+      }
+    }
+
+    .about{
+        display:flex;
+        color: rgb(43, 19, 19);
+        font-weight: 450;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        text-align: center;
+        line-height: 50px;
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-flow: coulmn wrap;
+    }
+
+    div{
+
+        display: flex;
+        /* flex-direction: row; */
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    
+
+    
+    .insta{
+    
+        height :60px;
+        width: 60px;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    
+    .insta :hover {
+        animation-name: insta_ani;
+        animation-timing-function: ease-in-out;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        transform-origin: bottom;
+        animation-name: insta_ani;
+    }
+    
+    @keyframes insta_ani {
+        0%   { transform: translateY(0); }
+        50%  { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
+      }
+
+      
+    
+   
+
