@@ -2,7 +2,7 @@ body
 {
     
     /* background-color: blanchedalmond ;  */
-    background-image: url("/Users/akshisaxena/Downloads/background.webp");
+    background-image: url("./background.webp");
     display: flex;
     /* flex-direction: column; */
     flex-flow: row wrap;

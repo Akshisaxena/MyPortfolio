@@ -1,6 +1,6 @@
 
 body{
-    background-image: url("/Users/akshisaxena/Downloads/background_contact.png"); 
+    background-image: url("./background_contact.png"); 
     /* padding: 50px 0 50px; */
     display: flex;
     flex-direction: column;
