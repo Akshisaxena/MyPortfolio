@@ -2,7 +2,7 @@ body
 {
     
     /* background-color: blanchedalmond ;  */
-    background-image: url("./background.webp");
+    background-image: url("./background_contact.png");
     display: flex;
     /* flex-direction: column; */
     flex-flow: row wrap;
